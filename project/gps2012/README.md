@@ -23,6 +23,6 @@ The system had three parts: a handring, an App of smart cellphone and a server. 
 
 The result was captured shown in the following picture.
 
-![](Run.png)
+![](run.png)
 
 At the top right corner, a circuit model of the hand-ring part is displayed, including a pulse sensor, a GPS client, a GSM modem, the controller and etc. Below is the server's main page, showing the map of the location and the emerrgency messages. At the top left corner, the Android app is displayed.

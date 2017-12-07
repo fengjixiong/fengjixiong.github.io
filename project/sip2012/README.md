@@ -19,9 +19,9 @@ The visual IP telephone system had two parts: client and proxy. Just like a tele
 - With the session beginned, speeches and videos were transported directly from UAC-1 to UAC-2, using RTP and UDP.
 - Finally, when one of the client hanged up, the session ended and UAS would reset the status of both UAC.
 
-## Result
+## Run
 
-The result was captured shown in the following picture.
+The started system was captured shown in the following picture.
 
 ![](result.bmp)
 
