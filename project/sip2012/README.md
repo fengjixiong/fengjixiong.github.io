@@ -14,13 +14,10 @@ The visual IP telephone system had two parts: client and proxy. Just like a tele
 
 ![](system.jpg)
 
-At first, the UAS started, published its IP address, and waited for the registration of the UACs.
-
-After the UACs registered to UAS, any of them could make calls to another. The UAS could automatically deal with dials, rings, and answers.
-
-With the session beginned, speeches and videos were transported directly from UAC-1 to UAC-2, using RTP and UDP.
-
-Finally, when one of the client hanged up, the session ended and UAS would reset the status of both UAC.
+- At first, the UAS started, published its IP address, and waited for the registration of the UACs.
+- After the UACs registered to UAS, any of them could make calls to another. The UAS could automatically deal with dials, rings, and answers.
+- With the session beginned, speeches and videos were transported directly from UAC-1 to UAC-2, using RTP and UDP.
+- Finally, when one of the client hanged up, the session ended and UAS would reset the status of both UAC.
 
 ## Result
 
