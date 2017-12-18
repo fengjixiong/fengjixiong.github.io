@@ -30,11 +30,11 @@ This research uses HMM as a major method for recognition. HMM is a kind of signa
 
 - Finally, an Continuous HMM model is used to train and test:
 
-![](model.jpg)
+![](model.JPG)
 
 where
 
-![](formular.jpg)
+![](formular.JPG)
 
 In the experiment, N=5 and M=3. The feature vectors are in dimension D=300.
 
