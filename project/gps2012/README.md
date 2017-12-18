@@ -2,7 +2,7 @@
 
 [(Back to Index.html)](../index.html)
 
-This project began in April 2012 and lasted for one year.
+This project began in April 2012 and lasted for one year. Later in 2014, I joined in a start-up company, where I had the opportunity to see how my idea came into products.
 
 ## Background
 This project was supported by the fund for undergradute students from the Zhejiang Province government. It aimed to build an on-hand-system, which was monitoring the user's pulse continuously. Once the user's pulse became abnormal, the system would send location message to the user's families and call for help. The system was designed mainly for the old people, whose abnormal pulse signals indicated heart attacks.
@@ -26,3 +26,17 @@ The result was captured shown in the following picture.
 ![](run.png)
 
 At the top right corner, a circuit model of the hand-ring part is displayed, including a pulse sensor, a GPS client, a GSM modem, the controller and etc. Below is the server's main page, showing the map of the location and the emerrgency messages. At the top left corner, the Android app is displayed.
+
+## Product
+
+The product looked as follows.
+
+![](product-lifeark.png)
+
+The sensor kept collecting pulse signals.
+
+![](wave-lifeark.jpg)
+
+The pulse was analyzed in a smart phone app.
+
+![](app-lifeark.png)

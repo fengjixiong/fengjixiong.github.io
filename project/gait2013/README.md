@@ -26,7 +26,16 @@ This research uses HMM as a major method for recognition. HMM is a kind of signa
 
 ![](feature.png)
 
-- Finally, an HMM model is used to train and test.
+- Finally, an Continuous HMM model is used to train and test:
+$\lambda=[\pi,A,C,\mu,U]$, 
+where
+	- $$$\pi=[\pi_1,\pi_2,...,\pi_N]$$$ is the initial probablities of each hidden state. These probablities are set randomly in each experiment.
+	- $$$ A=\{a_{ij}|i,j=1,2,...,N\}$$$ is the transit matrix for each hidden state.
+	- $$$ C=\{c_{ij}|i=1,...,N;j=1,...,M\}$$$ is the mixed weight matrix of **Guassian Mixed Model** (GMM). $$$c_{nm}$$$ stands for the weight of the m-th GMM in state n.
+	- $$$ \mu=\{\mu_{ij}|i=1,...,N;j=1,...,M\}$$$ is the mean tensor. $$$\mu_{nm}$$$ stands for the mean vector of the m-th GMM in state n.
+	- $$$ U=\{u_{ij}|i=1,...,N;j=1,...,M\}$$$ is the covariance tensor. $$$U_{nm}$$$ stands for the covariance matrix of the m-th GMM in state n.
+
+	In the experiment, N=5 and M=3. The feature vectors are in dimension D=300.
 
 ## Run
 
